@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("<h1>Nah id win</h1>");
 });
 
